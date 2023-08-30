@@ -1,5 +1,10 @@
-@import "./base/base.scss";
+@import "../../node_modules/bootstrap/scss/functions";
 @import "./utils/variables.scss";
+@import "../../node_modules/bootstrap";
 
+
+@import "./base/base.scss";
+@import "./layout/header";
+@import "./layout/footer";
 
 @import './pages/index.scss';

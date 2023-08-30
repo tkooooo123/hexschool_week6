@@ -1,4 +1,28 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.nav {
+  padding: 25px 0;
+  border-bottom: 3px solid $primary;
+}
+.nav-brand {
+  color: $primary;
+  img {
+    height: 53px; 
+  }
+  .title {
+    font-weight: normal;
+  }
+}
+.search-input {
+  padding-left: 24px;
+  height: 55px;
+  width: 284px;
+  background-color: $background;
+  border-right: none;
+}
+.search-icon {
+font-size: 19px;
+ color: $secondary;
+}
+
+.nav-item {
+  font-size: 18px;
 }

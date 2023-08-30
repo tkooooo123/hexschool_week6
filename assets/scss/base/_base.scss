@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Yeseva One';
+    color: $black;
+    line-height: 1.5;
+    background-color: $background;
+}
+a {
+    text-decoration: none;
+    
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+ul, li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
