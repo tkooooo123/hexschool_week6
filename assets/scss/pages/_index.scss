@@ -1,3 +1,114 @@
-.index-title {
-  font-size: 100px;
+.banner {
+  margin-top: 32px;
+
+  img {
+    height: 518px;
+    object-fit: cover;
+  }
+
 }
+
+.category-item {
+  aspect-ratio: 1;
+  border: 2px solid black;
+
+  img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    background-color: $secondary;
+  }
+
+}
+
+.more-link {
+  background-color: $secondary;
+
+  &:hover {
+    color: $secondary;
+    background-color: $primary;
+  }
+}
+//近期活動
+.recent-title,
+.online-title {
+  padding: 32px 24px;
+  font-size: 64px;
+  border: 3px solid $primary;
+}
+
+.card-date {
+  border-bottom: 3px solid $primary;
+}
+
+.card-img {
+  height: 225px;
+  object-fit: cover;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-footer {
+  border-top: 2px solid $primary;
+  border-bottom: 2px solid $primary;
+
+  img {
+    height: 24px;
+  }
+}
+//線上活動
+.online-img {
+  height: 317px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tag {
+  padding: 4px 24px;
+  border: 1px solid $primary;
+  border-left: 4px solid $primary;
+
+  &:hover {
+    cursor: pointer;
+    color: $white;
+    background-color: $primary;
+    border: none;
+    border-left: 4px solid $secondary;
+  }
+}
+
+.online-content {
+  flex-grow: 1;
+}
+
+//相簿區塊
+.album-list {
+  
+  li {
+    .title-transform {
+      transform: translate(-50%, -50%) rotate(-4deg);
+    }
+    &:nth-child(2n) {
+      transform: rotate(2deg);
+    }
+    &:nth-child(3) {
+      transform: rotate(-2deg);
+    }
+ 
+  }
+}
+.album-card {
+ 
+  img {
+    aspect-ratio: 1;
+    object-fit: cover
+  }
+  
+}
+
+

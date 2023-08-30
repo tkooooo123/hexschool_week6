@@ -33,24 +33,9 @@ url("./fonts/icofont.woff") format("woff");
   -webkit-font-smoothing: antialiased;
 }
 
-.icofont-ui-file:before
+.icofont-phone:before
 {
-  content: "\ec57";
-}
-
-.icofont-ui-user:before
-{
-  content: "\ec8e";
-}
-
-.icofont-search-1:before
-{
-  content: "\ed11";
-}
-
-.icofont-ui-email:before
-{
-  content: "\ec56";
+  content: "\efbb";
 }
 
 .icofont-facebook:before
@@ -58,14 +43,9 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ed37";
 }
 
-.icofont-duotone.icofont-phone:before
+.icofont-ui-email:before
 {
-  content: "\13b7f";
-}
-
-.icofont-duotone.icofont-phone:after
-{
-  content: "\13b7e";
+  content: "\ec56";
 }
 
 .icofont-arrow-left:before
@@ -76,6 +56,21 @@ url("./fonts/icofont.woff") format("woff");
 .icofont-arrow-right:before
 {
   content: "\ea5d";
+}
+
+.icofont-ui-user:before
+{
+  content: "\ec8e";
+}
+
+.icofont-ui-file:before
+{
+  content: "\ec57";
+}
+
+.icofont-search-1:before
+{
+  content: "\ed11";
 }
 
 .icofont-check-circled:before

@@ -314,6 +314,8 @@ $dark:          $gray-900 !default;
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
+  "third":      $third,
+  "background": $background,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -326,6 +328,8 @@ $theme-colors: (
 // scss-docs-start theme-text-variables
 $primary-text-emphasis:   shade-color($primary, 60%) !default;
 $secondary-text-emphasis: shade-color($secondary, 60%) !default;
+$third-text-emphasis: shade-color($third, 60%) !default;
+$background-text-emphasis: shade-color($background, 60%) !default;
 $success-text-emphasis:   shade-color($success, 60%) !default;
 $info-text-emphasis:      shade-color($info, 60%) !default;
 $warning-text-emphasis:   shade-color($warning, 60%) !default;
