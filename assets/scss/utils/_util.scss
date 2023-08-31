@@ -33,6 +33,7 @@
 .px-12 {
     padding: 0 12px;
 }
+
 .px-32 {
     padding: 0 32px;
 }
@@ -57,18 +58,38 @@
     padding: 32px;
 }
 
-.fz-12 {
-    font-size: 12px;
-}
 
-.fz-18 {
-    font-size: 18px;
-}
 
-.fz-48 {
-    font-size: 48px;
-}
 
 .f-g-1 {
     flex-grow: 1;
+}
+
+
+
+$max: 80;
+
+
+//font-size
+
+@for $i from 0 through $max {
+    .fz-#{$i} {
+        font-size: $i * 1px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    @for $i from 0 through $max {
+        .fz-md-#{$i} {
+            font-size: $i * 1px;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    @for $i from 0 through $max {
+        .fz-lg-#{$i} {
+            font-size: $i * 1px;
+        }
+    }
 }
