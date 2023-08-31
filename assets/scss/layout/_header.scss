@@ -1,28 +1,38 @@
-.nav {
-  padding: 25px 0;
+.navbar {
   border-bottom: 3px solid $primary;
 }
 .nav-brand {
   color: $primary;
   img {
-    height: 53px; 
+    height: 40px; 
   }
   .title {
     font-weight: normal;
   }
 }
-.search-input {
-  padding-left: 24px;
-  height: 55px;
-  width: 284px;
+.search-bar {
+
+  width: 168px;
   background-color: $background;
   border-right: none;
 }
 .search-icon {
-font-size: 19px;
+font-size: 15px;
  color: $secondary;
 }
 
 .nav-item {
   font-size: 18px;
 }
+
+@include media-breakpoint-up(md) { 
+   .nav-brand img {
+    height: 40px;
+   }
+  .search-bar {
+    width: 284px;
+  }
+  .search-icon {
+    font-size: 19px;
+  }
+ }
