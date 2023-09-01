@@ -1,0 +1,146 @@
+.detail-banner {
+    margin-top: 16px;
+
+    @include media-breakpoint-up(md) {
+        margin-top: 30px;
+    }
+}
+
+.detail-img {
+    padding: 12px;
+    border: 2px solid $primary;
+
+    img {
+        max-height: 550px;
+        object-fit: cover;
+    }
+
+    @include media-breakpoint-up(md) {
+        padding: 24px;
+        border: 3px solid $primary;
+
+    }
+}
+
+.year,
+.date-wrapper {
+    padding: 12px 24px;
+    border: 2px solid $primary;
+
+    @include media-breakpoint-up(md) {
+        border: 3px solid $primary;
+    }
+
+    @include media-breakpoint-up(lg) {
+        border: 3px solid $primary;
+        padding: 48px 0;
+    }
+}
+
+.year {
+    padding: 24px 0;
+    font-size: 24px;
+
+    @include media-breakpoint-up(lg) {
+        padding: 32px 0;
+        font-size: 48px;
+    }
+}
+
+.date {
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 140px;
+    }
+}
+
+.time::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    width: 50px;
+    background-color: black;
+    transform: translateX(-50%) rotate(120deg);
+
+    @include media-breakpoint-up(lg) {
+        top: 50%;
+        transform: translate(-50%) rotate(120deg);
+        width: 100px;
+    }
+}
+
+.event-info {
+    padding: 16px;
+
+    @include media-breakpoint-up(md) {
+        padding: 32px;
+    }
+}
+
+.ticket {
+    table {
+        margin-bottom: 48px;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: 60px;
+        }
+    }
+
+    thead {
+        border-bottom: 3px solid $primary;
+    }
+
+    th,
+    td {
+        font-size: 14px;
+        background-color: $background;
+        border-bottom: 1px solid $primary;
+
+        @include media-breakpoint-up(md) {
+            font-size: 16px;
+        }
+    }
+
+    &-date {
+        width: calc(76 / 350 * 100%);
+    }
+
+    &-type {
+        width: calc(161 / 350 * 100%);
+    }
+
+    &-price {
+        width: calc(55 / 350 * 100%);
+    }
+
+    &-btn {
+        width: calc(54 / 350 * 100%);
+
+        a {
+            padding: 8px 12px;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        &-date {
+            width: calc(389 / 1296 * 100%);
+        }
+
+        &-type {
+            width: calc(300 / 1296 * 100%);
+        }
+
+        &-price {
+            width: calc(300 / 1296 * 100%);
+        }
+
+        &-btn {
+            width: calc(128 / 1296 * 100%);
+            font-size: 14px;
+        }
+
+        a {
+            padding: 8px 24px;
+        }
+    }
+}
