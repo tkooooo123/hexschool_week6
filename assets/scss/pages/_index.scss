@@ -1,16 +1,27 @@
 .banner {
   margin-top: 16px;
   margin-bottom: 32px;
+  &-title {
+    top: 0;
+  }
+  &-text {
+    width: 65%;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  img {
+    min-height: 350px;
+    max-height: 518px;
+    object-fit: cover;
+  }
 
   @include media-breakpoint-up(md) {
     margin-top: 32px;
     margin-bottom: 48px;
   }
 
-  img {
-    height: 518px;
-    object-fit: cover;
-  }
+ 
 
 }
 
