@@ -5,6 +5,13 @@ html, body {
     line-height: 1.5;
     background-color: $background;
 }
+body {
+    position: relative;
+    padding-top: 70px;
+    @include media-breakpoint-up(md) { 
+       padding-top: 110px;
+      }
+}
 a {
     text-decoration: none;
     
