@@ -1,0 +1,15 @@
+.login {
+    height: calc(100vh - 163px);
+    .logo-img {
+        height: 32px;
+        width: 32px;
+    }
+
+    @include media-breakpoint-up(md) {
+        height: calc(100vh - 226px);
+        .login-btn {
+            margin-top: 32px;
+        }
+      }
+}
+
