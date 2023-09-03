@@ -312,3 +312,16 @@
     padding: 60px 0;
   }
 }
+
+//swiper　跑馬燈
+.swiper {
+  background-color: $primary;
+  color:$secondary
+}
+.swiper-wrapper {
+  transition-timing-function: linear;
+}
+.swiper-slide {
+  letter-spacing: 3.2px;
+  width: auto;
+}
