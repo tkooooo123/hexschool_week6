@@ -5,7 +5,7 @@
         width: 32px;
     }
 
-    @include media-breakpoint-up(md) {
+    @include md {
         height: calc(100vh - 226px);
         .login-btn {
             margin-top: 32px;

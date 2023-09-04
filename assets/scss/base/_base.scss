@@ -8,7 +8,7 @@ html, body {
 body {
     position: relative;
     padding-top: 70px;
-    @include media-breakpoint-up(md) { 
+    @include md { 
        padding-top: 110px;
       }
 }

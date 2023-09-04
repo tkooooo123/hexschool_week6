@@ -3,8 +3,9 @@
 @import "../../node_modules/bootstrap";
 
 
-@import "./base/base.scss";
 @import "./utils/util";
+@import "./utils/mixin";
+@import "./base/base.scss";
 @import "./layout/header";
 @import "./layout/footer";
 

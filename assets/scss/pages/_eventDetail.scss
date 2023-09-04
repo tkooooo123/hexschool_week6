@@ -1,7 +1,7 @@
 .detail-banner {
     margin-top: 16px;
 
-    @include media-breakpoint-up(md) {
+    @include md {
         margin-top: 30px;
     }
 }
@@ -15,7 +15,7 @@
         object-fit: cover;
     }
 
-    @include media-breakpoint-up(md) {
+    @include md {
         padding: 24px;
         border: 3px solid $primary;
 
@@ -27,11 +27,11 @@
     padding: 12px 24px;
     border: 2px solid $primary;
 
-    @include media-breakpoint-up(md) {
+    @include md {
         border: 3px solid $primary;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include lg {
         border: 3px solid $primary;
         padding: 48px 0;
     }
@@ -41,14 +41,14 @@
     padding: 24px 0;
     font-size: 24px;
 
-    @include media-breakpoint-up(lg) {
+    @include lg {
         padding: 32px 0;
         font-size: 48px;
     }
 }
 
 .date {
-    @include media-breakpoint-up(lg) {
+    @include lg {
         margin-bottom: 140px;
     }
 }
@@ -62,7 +62,7 @@
     background-color: black;
     transform: translateX(-50%) rotate(120deg);
 
-    @include media-breakpoint-up(lg) {
+    @include lg {
         top: 50%;
         transform: translate(-50%) rotate(120deg);
         width: 100px;
@@ -72,7 +72,7 @@
 .event-info {
     padding: 16px;
 
-    @include media-breakpoint-up(md) {
+    @include md {
         padding: 32px;
     }
 }
@@ -81,7 +81,7 @@
     table {
         margin-bottom: 48px;
 
-        @include media-breakpoint-up(md) {
+        @include md {
             margin-bottom: 60px;
         }
     }
@@ -96,7 +96,7 @@
         background-color: $background;
         border-bottom: 1px solid $primary;
 
-        @include media-breakpoint-up(md) {
+        @include md {
             font-size: 16px;
         }
     }
@@ -121,7 +121,7 @@
         }
     }
 
-    @include media-breakpoint-up(md) {
+    @include md {
         &-date {
             width: calc(389 / 1296 * 100%);
         }
